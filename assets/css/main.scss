@@ -1,0 +1,16 @@
+$blue: #00f;
+$red: #f00;
+$green: #0f0;
+
+.box1 {
+    color: $blue;
+}
+.box2 {
+    background-color: $green;
+    width: 30%;
+    height: 10em;
+    display: flex;
+    h2 {
+        color: $red;
+    }
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body,h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-dark {
+  background-color: #111010 ;
+  color: #f9f2f2;
+}
+.bg-light {
+  background-color: #f9f2f2;
+  color: #111010;
+}
+
+.btn {
+  padding: 1em;
+  cursor: pointer;
+  background-image: linear-gradient(180deg, transparent, #dcc);
+  border: 1px solid #11101033;
+  margin: 1em;
+}
+
+header {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/clinic.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 3em;
+  padding: 0 3vw;
+  border-bottom: 1px solid #11101033;
+  text-align: center;
+}
+
+h3 {
+  background-color: #ff20a0;
+  color: #fff;
+  padding: 0 2em;
+}
+.hero-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hot-links {
+font-weight: 400;
+font-size: 2em;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.main {
+  background-image: url(../img/happy-birthday.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f9f2f2;
+  
+}
+
+.main h1 {
+  background: #ff20a0;
+}
+.me {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  z-index: 10;
+}
